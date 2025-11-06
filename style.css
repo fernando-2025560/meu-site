@@ -6,7 +6,7 @@ html, body {
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: absolute !important;
-  background-attachment: scroll !important;
+  background-attachment: fixed !important;
   background-repeat: no-repeat !important;
 }
 

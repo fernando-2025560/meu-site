@@ -330,11 +330,11 @@ body {
 
 .video-container {
   position: absolute;
-  top: 86.9291338582677px;
-  left: 37.79527559055118px;
-  width: 380px;
-  height: 210px;
-  border-radius: 5px;
+  top: 10.588201444368783vh;
+  left: 2.2141344809930392vw;
+  width: 22.261277094317517vw;
+  height: 25.578562728380025vh;
+  border-radius: 0.29291154071470415vw;
   overflow: hidden;
   cursor: pointer;
 }

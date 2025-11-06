@@ -598,11 +598,11 @@ body {
 
 .video-container {
   position: absolute;
-  top: 86.9291338582677px;
-  left: 37.79527559055118px;
-  width: 320px;
-  height: 180px;
-  border-radius: 5px;
+  top: 10.588201444368783vh;
+  left: 2.2141344809930392vw;
+  width: 18.746338605741066vw;
+  height: 21.92448233861145vh;
+  border-radius: 0.29291154071470415vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -636,14 +636,14 @@ body {
 /* Legenda */
 .caption-link {
   position: absolute;
-  left: 37.79527559055118px;
-  font-size: 13px;
+  left: 2.2141344809930392vw;
+  font-size: 1.5834348355663825vh;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
   line-height: 1.1;
-  width: 320.95275590551176px;
-  bottom: 362.835px;
+  width: 18.802153245782762vw;
+  bottom: 44.19427527405603vh;
 }
 
 
@@ -653,8 +653,8 @@ body {
 
 .chart-wrap {
   position: fixed;
-  right: 18.90px;
-  bottom: 75.59055118110236px;
+  right: 1.1072056239015815vw;
+  bottom: 9.207131690755464vh;
   width: 139.84251968503938px;
   height: 94.48818897637794px;
   background: #fff;

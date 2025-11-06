@@ -527,11 +527,11 @@ body {
 
 /* Dimensões fixas */
 :root {
-  --video-width: 226.77165354330708px;
-  --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
+  --video-width: 13.284806885958234vw;
+  --video-height: 20.854153279561125vh; /* 16:9 proporção exata para 60px largura */
   --video-top: 0;
-  --video-left: 134px;
-  --caption-gap: 56.69291338582677px;
+  --video-left: 7.850029291154072vw;
+  --caption-gap: 3.3212017214895586vw;
 }
 
 .video-container {
@@ -552,7 +552,7 @@ body {
   width: var(--video-width);
   height: var(--video-height);
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 0.29291154071470415vw;
   z-index: 2;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -565,7 +565,7 @@ body {
 #player iframe {
   width: var(--video-width);
   height: var(--video-height);
-  border-radius: 5px;
+  border-radius: 0.29291154071470415vw;
   z-index: 1;
   position: relative;
 }

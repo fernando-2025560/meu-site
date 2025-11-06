@@ -224,20 +224,20 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   text-decoration: none !important;
   object-fit: contain !important;
-  padding: 5.67px !important;
+  padding: 0.3321616871704745vw !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  top: 611.5px !important;
+  top: 74.48233861144945vh !important;
 }
 
 
 .glass-icon:hover {
   transform: scale(1.4) translateX(-3.7px) !important;
   box-shadow:
-      0 3px 8px rgba(0,0,0,0.4),
-      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-      inset 3px 3px 3px rgba(0,0,0,0.2) !important;
-      top: 611.5px !important;
+      0   0.1757469244288225vw 0.46865846514352666vw rgba(0,0,0,0.4),
+      inset 0.11716461628588166vw   0.11716461628588166vw 0.1757469244288225vw rgba(255, 255, 255, 0.6),
+      inset 0.1757469244288225vw 0.1757469244288225vw 0.1757469244288225vw rgba(0,0,0,0.2) !important;
+      top: 74.48233861144945vh !important;
 }
 
 .glass-svg {
@@ -250,7 +250,7 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
-  top: 611.5px !important;
+  top: 74.48233861144945vh !important;
   overflow: visible !important;
   position: center;
 }

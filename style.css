@@ -232,7 +232,7 @@ body {
 
 
 .glass-icon:hover {
-  transform: scale(1.4) translateX(-3.7px) !important;
+  transform: scale(0.1705237515225335vh) translateX(0.45066991473812423vh) !important;
   box-shadow:
       0   0.1757469244288225vw 0.46865846514352666vw rgba(0,0,0,0.4),
       inset 0.11716461628588166vw   0.11716461628588166vw 0.1757469244288225vw rgba(255, 255, 255, 0.6),

@@ -302,7 +302,7 @@ body {
 #player iframe {
   width: var(--video-width);
   height: var(--video-height);
-  border-radius: 5px;
+  border-radius: 0.29291154071470415vw;
   z-index: 1;
   position: relative;
 }
@@ -310,10 +310,10 @@ body {
 /* Legenda com alinhamento e distância de 1.5mm abaixo da imagem */
 .caption-link {
   position: absolute;
-  top: calc(var(--video-top)  + var(--video-height) + 188.97637795275588px);
+  top: calc(var(--video-top)  + var(--video-height) + 23.017829226888654vh);
   left: var(--video-left);
   width: var(--video-width);
-  font-size: 13px;
+  font-size: 1.5834348355663825vh;
   color: #000 !important;
   text-decoration: underline;
   cursor: pointer;

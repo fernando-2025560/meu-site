@@ -359,13 +359,13 @@ body {
 .caption-link {
   position: absolute;
   top: calc(9.207131690755464vh + 26.796589524969548vh + 0.6090133982947625vh);
-  left: 37.79527559055118px;
-  font-size: 13px;
+  left: 2.2141344809930392vw;
+  font-size: 1.5834348355663825vh;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
   line-height: 1.2;
-  width: 377.95275590551176px;
+  width: 22.141344809930388vw;
 }
 
 .caption-link:hover {

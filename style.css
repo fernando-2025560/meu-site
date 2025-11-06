@@ -1558,12 +1558,12 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.11px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  top: calc(147.25943970767358vh + 21.92448233861145vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 42.068541300527244vw;                    /* mesma distância lateral do vídeo */
+  width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.5834348355663825vh;
   line-height: 1.1;
   color: #000;
   margin: 0;

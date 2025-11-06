@@ -149,8 +149,8 @@ body {
   .search-button {
     position: absolute !important;
     height: 4.7vh !important;
-    border-radius: 16px !important;
-    border: 2.9px solid black !important;
+    border-radius: 0.9373169302870533vw !important;
+    border: 0.1698886936145284vw solid black !important;
     font-size: 16px  !important;
     cursor: pointer !important;
     width: 8.4vw !important;

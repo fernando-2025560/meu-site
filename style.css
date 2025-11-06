@@ -1472,21 +1472,21 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox10 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 37.8px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  top: 119.884287454324vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 2.214411247803163vw;        /* distância da lateral esquerda */
+  width: 18.746338605741066vw;      /* largura padrão do vídeo */
+  height: 21.92448233861145vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption10 {
   position: absolute;
-  top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 37.8px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  top: calc(119.884287454324vh + 21.92448233861145vh); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 2.214411247803163vw;                    /* mesma distância lateral do vídeo */
+  width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.5834348355663825vh;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1498,21 +1498,21 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox11 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 37.8px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  top: 147.25943970767358vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 2.214411247803163vw;        /* distância da lateral esquerda */
+  width: 18.746338605741066vw;      /* largura padrão do vídeo */
+  height: 21.92448233861145vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption11 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 37.8px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  top: calc(147.25943970767358vh + 21.92448233861145vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 2.214411247803163vw;                    /* mesma distância lateral do vídeo */
+  width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.5834348355663825vh;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1524,21 +1524,21 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox12 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 377.953px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  top: 147.25943970767358vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 22.141359109548915vw;        /* distância da lateral esquerda */
+  width: 18.746338605741066vw;      /* largura padrão do vídeo */
+  height: 21.92448233861145vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption12 {
   position: absolute;
-  top: calc(1209px + 21.92448233861145vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 377.953px;                    /* mesma distância lateral do vídeo */
+  top: calc(147.25943970767358vh + 21.92448233861145vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 22.141359109548915vw;                    /* mesma distância lateral do vídeo */
   width: 18.746338605741066vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.5834348355663825vh;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1549,8 +1549,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox13 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.11px;        /* distância da lateral esquerda */
+  top: 147.25943970767358vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 42.068541300527244vw;        /* distância da lateral esquerda */
   width: 18.746338605741066vw;      /* largura padrão do vídeo */
   height: 21.92448233861145vh;     /* altura padrão do vídeo */
 }

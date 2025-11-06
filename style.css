@@ -209,10 +209,10 @@ body {
 }
 
 .glass-icon {
-  width: 35px !important;
-  height: 35px !important;
+  width: 2.050380785002929vw !important;
+  height: 4.263093788063338vh !important;
   border-radius: 50% !important;
-  backdrop-filter: blur(6px) saturate(180%) !important;
+  backdrop-filter: blur(0.351493848857645vw) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
   box-shadow : 
      0 4px 10px rgba(255,255,255, 0.3),

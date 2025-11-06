@@ -1573,7 +1573,7 @@ h2 {
 
 
 /* Responsivo (opcional) */
-@media (max-width: 600px) {
+@media (max-width: 35.1493848857645vw) {
   #customYT,
   #videoCaption {
     width: 100%;
@@ -1584,13 +1584,13 @@ h2 {
 
 
 /* Responsividade */
-@media (max-width: 1024px) {
+@media (max-width: 59.98828353837141vw) {
   .video-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 35.1493848857645vw) {
   .video-grid {
     grid-template-columns: 1fr;
   }

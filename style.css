@@ -271,7 +271,7 @@ body {
   left: 92.5% !important;
   bottom: 2.21413448096075vw !important;
   width: 2.21413448096075vw !important;
-  height: 96.77px !important;
+  height: 11.786845310596833vh !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -279,10 +279,10 @@ body {
 }
 
 #qrcode {
-  width: 83px !important;
-  height: 83px !important;
+  width: 4.862331575864089vw !important;
+  height: 10.109622411693056vh !important;
   position: fixed;
-  bottom: 367.795px;
+  bottom: 44.79841656516443vh;
 }
 
 

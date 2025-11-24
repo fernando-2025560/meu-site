@@ -422,15 +422,6 @@ body {
 
 
 
-/* Dimensões fixas */
-:root {
-  --video-width: 11.822917vw;
-  --video-height: 15.833333vh; /* 16:9 proporção exata para 60px largura */
-  --video-top: 5.555556vh;
-  --video-left: 11.770833vw;
-  --caption-gap: 5.185185vh;
-}
-
 .video-container {
   position: absolute;
   top: var(--video-top);
@@ -1886,3 +1877,4 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+

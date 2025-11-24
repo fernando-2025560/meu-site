@@ -299,15 +299,6 @@ body {
   background-color: #000;
 }
 
-/* Dimensões fixas */
-:root {
-  --video-width: 226.77165354330708px;
-  --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
-  --video-top: 5.555556vh;
-  --video-left: 1.770833vw;
-  --caption-gap: 56.69291338582677px;
-}
-
 .video-container {
   position: absolute;
   top: var(--video-top);
@@ -1865,6 +1856,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

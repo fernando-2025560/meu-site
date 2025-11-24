@@ -52,11 +52,6 @@ body {
 }
 
 
-header{
-    background-color: transparent !important;
-    height: 6.481481vh !important;
-    width: 100% !important;
-}
 
 
 /* Logo */
@@ -1877,4 +1872,5 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 

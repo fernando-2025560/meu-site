@@ -67,9 +67,7 @@ body {
 
 /* Reset básico */
 * {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
+        box-sizing: border-box !important;
 }
 
 /* Estilização */
@@ -1867,6 +1865,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

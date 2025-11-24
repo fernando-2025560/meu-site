@@ -79,8 +79,7 @@ body {
     align-items: flex-start !important;
     height: 100vh !important;
     background-color: #f5f5f5 !important;
-    font-family: Arial, sans-serif !important;
-}
+  }
 
 header {
     background-color: transparent !important;
@@ -300,8 +299,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  font-family: Arial, sans-serif;
-  color: #000 !important;
 }
 
 /* Dimensões fixas */
@@ -357,8 +354,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  font-family: Arial, sans-serif;
-  color: #000 !important;
 }
 
 .video-container {
@@ -1872,5 +1867,6 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 

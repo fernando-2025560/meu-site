@@ -21,6 +21,36 @@ html, body {
 }
 
 
+/* Dimensões fixas */
+:root {
+  --video-width: 11.822917vw;
+  --video-height: 15.833333vh; /* 16:9 proporção exata para 60px largura */
+  --video-top: 5.555556vh;
+  --video-left: 11.770833vw;
+  --caption-gap: 5.185185vh;
+}
+
+
+
+
+header{
+    background-color: transparent !important;
+    height: 6.481481vh !important;
+    width: 100% !important;
+}
+
+margin: 0 !important;
+    padding: 0 !important;
+
+/* Dimensões fixas */
+:root {
+  --video-width: 226.77165354330708px;
+  --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
+  --video-top: 5.555556vh;
+  --video-left: 1.770833vw;
+  --caption-gap: 56.69291338582677px;
+}
+
 
 header{
     background-color: transparent !important;
@@ -1894,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

@@ -1513,7 +1513,7 @@ html, body {
   left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1563,7 +1563,7 @@ html, body {
   left: 37.8px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1588,7 +1588,7 @@ html, body {
   left: 37.8px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -1613,7 +1613,7 @@ html, body {
   left: 377.953px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -1638,7 +1638,7 @@ html, body {
   left: 718.11px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #000;
@@ -1663,7 +1663,7 @@ html, body {
   left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1690,7 +1690,7 @@ html, body {
   left: 35.000000vh;                    /* mesma distância lateral do vídeo */
   width: 16.666667vw;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.203704vh;
   line-height: 1.1;
   color: #000;
@@ -1705,7 +1705,7 @@ display: flex;
   flex-direction: column;
 
 /* Responsivo (opcional) */
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   #customYT,
   #videoCaption {
     width: 100%;
@@ -1716,13 +1716,13 @@ display: flex;
 
 
 /* Responsividade */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .video-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .video-grid {
     grid-template-columns: 1fr;
   }
@@ -1731,7 +1731,7 @@ display: flex;
 /* Media Queries para Responsividade */
 
 /* Para telas menores que 768px (como tablets e smartphones) */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .content {
       flex-direction: column;
   }
@@ -1741,19 +1741,19 @@ display: flex;
 }
 
 /* Para telas menores que 480px (como smartphones) */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   header, {
-      font-size: 14px;
+      font-size: 0.875rem;
   }
   .box {
-      font-size: 14px;
-      padding: 15px;
+      font-size: 0.875rem;
+      padding: 0.938rem;
   }
 }
 
 
 /* Para telas menores que 768px */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .search-container {
       flex-direction: column; /* Coloca a barra e o botão em coluna */
       align-items: center; /* Centraliza os itens */
@@ -1761,75 +1761,75 @@ display: flex;
 
   .search-input, .search-button {
       width: 100%; /* Faz a barra de pesquisa e o botão ocuparem a largura inteira */
-      margin-bottom: 10px; /* Dá um espaçamento entre os elementos */
+      margin-bottom: 0.625rem; /* Dá um espaçamento entre os elementos */
   }
 }
 
 /* Para telas menores que 480px (como smartphones) */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .search-input, .search-button {
-      font-size: 14px; /* Ajusta o tamanho da fonte para telas pequenas */
-      padding: 8px; /* Reduz o padding para economizar espaço */
+      font-size: 0.875rem; /* Ajusta o tamanho da fonte para telas pequenas */
+      padding: 0.5rem; /* Reduz o padding para economizar espaço */
   }
 }
 
 /* Para telas até 320px (smartphones muito pequenos, ex: iPhone SE) */
-@media (max-width: 320px) {
+@media (max-width: 20rem) {
   .search-input, .search-button {
       width: 100%; /* Barra de pesquisa e botão ocupam 100% da largura */
-      font-size: 12px; /* Tamanho de fonte menor */
-      padding: 6px; /* Reduz o padding */
-      margin-bottom: 8px; /* Espaço entre os elementos */
+      font-size: 0.75rem; /* Tamanho de fonte menor */
+      padding: 0.375rem; /* Reduz o padding */
+      margin-bottom: 0.5rem; /* Espaço entre os elementos */
   }
 }
 
 /* Para telas até 375px (iPhone X, iPhone 11, etc.) */
-@media (max-width: 375px) {
+@media (max-width: 23.438rem) {
   .search-input, .search-button {
       width: 100%; /* Barra de pesquisa e botão ocupam 100% da largura */
-      font-size: 14px; /* Tamanho de fonte ajustado */
-      padding: 8px; /* Ajusta o padding */
-      margin-bottom: 10px; /* Espaçamento entre os elementos */
+      font-size: 0.875rem; /* Tamanho de fonte ajustado */
+      padding: 0.5rem; /* Ajusta o padding */
+      margin-bottom: 0.625rem; /* Espaçamento entre os elementos */
   }
 }
 
 /* Para telas até 414px (ex: Samsung Galaxy S9+) */
-@media (max-width: 414px) {
+@media (max-width: 25.875rem) {
   .search-input, .search-button {
       width: 100%; /* Barra de pesquisa e botão ocupam 100% da largura */
-      font-size: 15px; /* Ajuste do tamanho de fonte */
-      padding: 10px; /* Aumenta o padding para melhor visibilidade */
-      margin-bottom: 12px; /* Aumenta o espaçamento */
+      font-size: 0.938rem; /* Ajuste do tamanho de fonte */
+      padding: 0.625rem; /* Aumenta o padding para melhor visibilidade */
+      margin-bottom: 0.75rem; /* Aumenta o espaçamento */
   }
 }
 
 /* Para telas até 480px (como smartphones grandes e tablets pequenos em modo retrato) */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .search-input, .search-button {
       width: 100%; /* Barra de pesquisa e botão ocupam 100% da largura */
-      font-size: 16px; /* Tamanho de fonte mais legível */
-      padding: 12px; /* Espaço maior para facilitar a interação */
-      margin-bottom: 15px; /* Espaço maior entre os elementos */
+      font-size: 1rem; /* Tamanho de fonte mais legível */
+      padding: 0.75rem; /* Espaço maior para facilitar a interação */
+      margin-bottom: 0.938rem; /* Espaço maior entre os elementos */
   }
 }
 
 /* Para telas entre 481px e 600px (smartphones mais largos, tablets pequenos) */
-@media (min-width: 481px) and (max-width: 600px) {
+@media (min-width: 30.063rem) and (max-width: 37.5rem) {
   .search-input, .search-button {
       width: 100%; /* Barra de pesquisa e botão ocupam 100% da largura */
-      font-size: 16px; /* Tamanho de fonte ainda legível */
-      padding: 12px; /* Ajuste de padding */
-      margin-bottom: 15px; /* Espaçamento */
+      font-size: 1rem; /* Tamanho de fonte ainda legível */
+      padding: 0.75rem; /* Ajuste de padding */
+      margin-bottom: 0.938rem; /* Espaçamento */
   }
 }
 
 /* Para telas entre 601px e 768px (tablets em modo retrato) */
-@media (min-width: 601px) and (max-width: 768px) {
+@media (min-width: 37.563rem) and (max-width: 48rem) {
   .search-input, .search-button {
       width: 100%; /* Barra de pesquisa e botão ocupam 100% da largura */
-      font-size: 18px; /* Tamanho de fonte maior */
-      padding: 14px; /* Maior espaçamento */
-      margin-bottom: 20px; /* Mais espaçamento entre os elementos */
+      font-size: 1.125rem; /* Tamanho de fonte maior */
+      padding: 0.875rem; /* Maior espaçamento */
+      margin-bottom: 1.25rem; /* Mais espaçamento entre os elementos */
   }
 }
 
@@ -1850,80 +1850,81 @@ body {
 /* Definindo o layout do conteúdo principal */
 main {
   flex-grow: 1; /* Garante que o conteúdo ocupe toda a área disponível */
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 
 /* Media Queries para Responsividade */
 
 /* Para telas até 768px (tablets e smartphones em modo retrato) */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   body {
       flex-direction: column; /* Organiza os itens em uma coluna */
   }
 
   main {
-      padding: 10px;
+      padding: 0.625rem;
   }
 
   
 }
 
 /* Para telas até 480px (smartphones em modo retrato) */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   main {
-      padding: 5px; /* Reduz o padding em telas muito pequenas */
+      padding: 0.313rem; /* Reduz o padding em telas muito pequenas */
   }
 
   
   /* Ajusta os elementos de conteúdo para ocupar a largura completa */
   .content, .sidebar {
       width: 100%; /* Barra lateral e conteúdo ocupam toda a largura */
-      margin-bottom: 10px; /* Adiciona espaçamento entre os elementos */
+      margin-bottom: 0.625rem; /* Adiciona espaçamento entre os elementos */
   }
 }
 
 /* Para telas grandes acima de 1024px (monitores e desktops) */
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .content {
       display: flex;
       justify-content: space-between;
-      gap: 20px;
+      gap: 1.25rem;
   }
 
   .sidebar {
-      width: 300px; /* Sidebar com largura fixa */
+      width: 18.75rem; /* Sidebar com largura fixa */
   }
 
   .box {
-      flex: 1 1 200px; /* Ajusta as caixas para ocupar o espaço */
+      flex: 1 1 12.5rem; /* Ajusta as caixas para ocupar o espaço */
   }
 }
 
 /* ======================== RESPONSIVIDADE ========================= */
 
 /* Tablets (até 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .search-bar { width: 50vw; }
   .vid-box p { font-size: 0.85rem; }
 }
 
 /* Smartphones (até 768px) */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   header { height: 8vh; }
   .search-container { flex-direction: column; }
-  .search-bar, .search-button { width: 80%; margin-bottom: 10px; }
+  .search-bar, .search-button { width: 80%; margin-bottom: 0.625rem; }
   .video-gallery { grid-template-columns: 1fr; }
   .chart-wrap, #qrcode-container { display: none; } /* oculta extras em telas pequenas */
 }
 
 /* Smartphones muito pequenos (até 480px) */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .search-bar { font-size: 0.9rem; }
   .search-button { font-size: 0.9rem; }
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

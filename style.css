@@ -752,7 +752,7 @@ body {
   background: #fff;
   padding: 0.619rem;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 0.063rem solid #ccc;
   border-radius: 0.312500vw;
 }
 
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

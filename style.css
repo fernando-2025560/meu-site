@@ -956,7 +956,7 @@ html, body { margin: 0; padding: 0; }
 /* Legenda abaixo do bloco */
 .yt-caption {
   display: block;
-  margin-top: 37.795275590551181px;
+  margin-top: 2.362rem;
   font: 500 13px/1.2 system-ui,  Arial, sans-serif;
   text-decoration: none;
   color: #000;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

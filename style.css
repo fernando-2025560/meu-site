@@ -973,7 +973,7 @@ html, body { margin: 0; padding: 0;}
 .yt-block {
   position: absolute;
   top: 5.433rem;
-  left: 377.95275590551176px;
+  left: 23.622rem;
   display: inline-block;
   line-height: 0;
   user-select: none;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

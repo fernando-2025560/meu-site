@@ -746,7 +746,7 @@ body {
 .chart-wrap {
   position: fixed;
   right: 0.989583vw;
-  bottom: 75.59055118110236px;
+  bottom: 4.724rem;
   width: 139.84251968503938px;
   height: 94.48818897637794px;
   background: #fff;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

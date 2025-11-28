@@ -1575,7 +1575,7 @@ html, body {
 /* Caixa do vídeo */
 #customVideoBox11 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
+  top: 75.563rem;         /* ajuste conforme a posição do seu vídeo */
   left: 37.8px;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
@@ -1584,7 +1584,7 @@ html, body {
 /* Legenda-link abaixo do vídeo */
 #videoCaption11 {
   position: absolute;
-  top: calc(1209px + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  top: calc(75.563rem + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 37.8px;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
@@ -1600,7 +1600,7 @@ html, body {
 /* Caixa do vídeo */
 #customVideoBox12 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
+  top: 75.563rem;         /* ajuste conforme a posição do seu vídeo */
   left: 377.953px;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
@@ -1609,7 +1609,7 @@ html, body {
 /* Legenda-link abaixo do vídeo */
 #videoCaption12 {
   position: absolute;
-  top: calc(1209px + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  top: calc(75.563rem + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 377.953px;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
@@ -1625,8 +1625,8 @@ html, body {
 /* Caixa do vídeo */
 #customVideoBox13 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.11px;        /* distância da lateral esquerda */
+  top: 75.563rem;         /* ajuste conforme a posição do seu vídeo */
+  left: 44.882rem;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1634,12 +1634,12 @@ html, body {
 /* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(1209px + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.11px;                    /* mesma distância lateral do vídeo */
+  top: calc(75.563rem + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 44.882rem;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1650,8 +1650,8 @@ html, body {
 /* Caixa do vídeo */
 #customVideoBox7 {
   position: absolute;
-  top: 755.9055118110235px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.1102362204724px;        /* distância da lateral esquerda */
+  top: 47.244rem;         /* ajuste conforme a posição do seu vídeo */
+  left: 44.882rem;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1659,12 +1659,12 @@ html, body {
 /* Legenda-link abaixo do vídeo */
 #videoCaption7 {
   position: absolute;
-  top: calc(755.9055118110235px + 11.25rem); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
+  top: calc(47.244rem + 11.25rem); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 44.882rem;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1958,6 +1958,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

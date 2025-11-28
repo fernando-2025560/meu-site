@@ -847,7 +847,7 @@ canvas {
 
 #custom-caption {
   position: relative;
-  top: 0.41px !important; /* 0.1 mm abaixo da imagem */
+  top: 0.026rem !important; /* 0.1 mm abaixo da imagem */
   display: block;
   text-align: absolute;
   z-index: 3;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

@@ -1657,7 +1657,7 @@ html, body {
   position: absolute;
 
   /* POSIÇÃO 100% RESPONSIVA */
-  top: clamp(30rem, 24vh + 18vw, 47.244rem);
+  top: clamp(35rem, 24vh + 18vw, 47.244rem);
   left: clamp(20rem, 12vw + 24vh, 44.882rem);
 
   /* Dimensões fixas do vídeo (não alteradas) */
@@ -1971,6 +1971,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

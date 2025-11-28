@@ -1672,10 +1672,10 @@ html, body {
   position: absolute;
 
   /* Legenda exatamente abaixo do vídeo */
-  top: calc(19cm + 11.25rem);
+  top: calc(20cm + 11.25rem);
 
   /* Mesmo alinhamento horizontal do vídeo */
-  right: 5cm;
+  right: 8cm;
 
   width: 20rem;
 
@@ -1974,6 +1974,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

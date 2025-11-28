@@ -358,7 +358,7 @@ body {
   width: 4.322917vw !important;
   height: 7.685185vh !important;
   position: fixed;
-  bottom: 367.795px;
+  bottom: 22.987rem;
 }
 
 body {
@@ -1016,7 +1016,7 @@ html, body { margin: 0; padding: 0;}
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  height: 181.41732283464566px;
+  height: 11.339rem;
 }
 
 .yt-wrap.playing .yt-iframe {
@@ -1958,6 +1958,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

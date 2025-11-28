@@ -988,7 +988,7 @@ html, body { margin: 0; padding: 0;}
 /* Imagem de capa */
 .yt-cover {
   display: block;
-  width: 320px;
+  width: 20rem;
   height: auto;
   object-fit: cover;
   transition: opacity 180ms ease-in-out, visibility 180ms ease-in-out;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

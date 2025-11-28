@@ -972,7 +972,7 @@ html, body { margin: 0; padding: 0;}
 /* Bloco absoluto na posição pedida */
 .yt-block {
   position: absolute;
-  top: 86.9291338582677px;
+  top: 5.433rem;
   left: 377.95275590551176px;
   display: inline-block;
   line-height: 0;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

@@ -872,7 +872,7 @@ canvas {
 
 #custom-overlay-container {
   position: absolute;
-  top: 86.93px; /* posição vertical do vídeo na tela */
+  top: 5.433rem; /* posição vertical do vídeo na tela */
   left: 19.479167vw;  /* posição horizontal do vídeo */
   width: 16.666667vw; /* largura total do contêiner, igual ao vídeo */
   height: auto;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

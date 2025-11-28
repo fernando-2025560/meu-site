@@ -957,7 +957,7 @@ html, body { margin: 0; padding: 0; }
 .yt-caption {
   display: block;
   margin-top: 2.362rem;
-  font: 500 13px/1.2 system-ui,  Arial, sans-serif;
+  font: 500 0.813rem/1.2   Arial, sans-serif;
   text-decoration: none;
   color: #000;
   width: 100%;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

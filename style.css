@@ -11,6 +11,36 @@ html, body {
   background-repeat: no-repeat !important;
 }
 
+
+iframe {
+  width: min(85vw, 42.6667vh);
+}
+
+iframe {
+  width: min(85vw, 42.6667vh);
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+
+iframe[src*="youtube.com"],
+iframe[src*=youtu.be"] {
+  width: min(85vw, 42.6667vh);
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+iframe[src*="youtube.com/embed/"]:not([src*="shorts"]),
+iframe[src*="youtu.be/"]:not([src*="shorts"]) {
+  width: min(85vw, 42.6667vh);      /* Equivalente eficaz a 320px */
+  aspect-ratio: 16  / 9;
+  height: auto;
+}
+
+iframe[src*="shorts"] {
+  width: min(50vw, 60vh);
+  aspect-ratio: 9 / 16;
+  height: auto;
 /* Dimensões fixas */
 :root {
   --video-width: 11.822917vw;
@@ -1958,6 +1988,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

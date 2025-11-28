@@ -1656,34 +1656,30 @@ html, body {
 #customVideoBox7 {
   position: absolute;
 
-  /* 19 cm abaixo do topo — convertido para unidade responsiva */
-  top: calc(19cm);
+  /* Posição solicitada */
+  top: 22cm;
+  right: 4cm;
 
-  /* 5 cm da lateral-direita — usando right, não left */
-  right: 5cm;
-
-  /* Dimensões do vídeo */
-  width: 20rem;
-  height: 11.25rem;
+  /* Dimensões fixas do vídeo */
+  width: 320px;
+  height: 180px;
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption7 {
   position: absolute;
 
-  /* Legenda exatamente abaixo do vídeo */
-  top: calc(20cm + 11.25rem);
+  /* 22 cm do topo + altura do vídeo (180px) */
+  top: calc(22cm + 180px);
 
-  /* Mesmo alinhamento horizontal do vídeo */
-  right: 8cm;
-
-  width: 20rem;
+  /* Mesmo alinhamento horizontal / mesma lateral */
+  right: 4cm;
 
   text-align: left;
   font-family: Arial, sans-serif;
   font-size: 0.813rem;
   line-height: 1.1;
-  color: #ffffff;
+  color: #000000;
   margin: 0;
   padding: 0;
   text-decoration: underline;
@@ -1974,6 +1970,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

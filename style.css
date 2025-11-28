@@ -1028,8 +1028,8 @@ html, body { margin: 0; padding: 0;}
 /* Legenda abaixo do bloco */
 .yt-caption {
   display: block;
-  margin-top: 37.79527559055118px;
-  font: 500 13px/1.2   Arial, sans-serif;
+  margin-top: 2.362rem;
+  font: 500 0.813rem/1.2   Arial, sans-serif;
   text-decoration: none;
   color: #000 !important;
   width: 20rem;
@@ -1958,6 +1958,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

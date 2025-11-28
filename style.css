@@ -993,7 +993,7 @@ html, body { margin: 0; padding: 0;}
   object-fit: cover;
   transition: opacity 180ms ease-in-out, visibility 180ms ease-in-out;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   height: 180px;
 }
 
@@ -1008,7 +1008,7 @@ html, body { margin: 0; padding: 0;}
   visibility: hidden;
   pointer-events: none;
   transition: opacity 180ms ease-in-out, visibility 180ms ease-in-out;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 /* Estado ativo: video-aparece */
@@ -1048,7 +1048,7 @@ html, body { margin: 0; padding: 0;}
    width: 320px; 
    height: 180px;
   pointer-events: auto;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 } 
 
 #videoCaption { 
@@ -1068,7 +1068,7 @@ margin-top: 37.79527559055118px;
 .video-miniatura iframe {
   width: 100%;
   height: 180px; /* proporcional a 16:9 em 200px de largura */
-  border: 5px;
+  border: 0.313rem;
 }
 
 .video-legenda {
@@ -1164,7 +1164,7 @@ margin-top: 37.79527559055118px;
   top: 87px;  /* distância do topo da tela */
   width: 320px;
   height: 180px;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 
@@ -1302,7 +1302,7 @@ html, body {
   left: 37.79527559055118px;
   width: 320px;
   height: 180px;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 
@@ -1313,7 +1313,7 @@ html, body {
 
 ::-webkit-scrollbar-thumb {
   background-color: darkgrey; /* Cor do "polegar" da barra */
-  border-radius: 5px; /* Borda arredondada */
+  border-radius: 0.313rem; /* Borda arredondada */
 }
 
 ::-webkit-scrollbar-track {
@@ -1353,7 +1353,7 @@ html, body {
   text-align: absolute;
   text-decoration: none;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   color: #000;
   font-family: Arial, sans-serif;
 }
@@ -1382,7 +1382,7 @@ html, body {
   text-align: absolute;
   text-decoration: none;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   color: #000;
   font-family: Arial, sans-serif;
 }
@@ -1538,7 +1538,7 @@ html, body {
   left: 377.95px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 13px;
   line-height: 1.1;
   color: #ffffff;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

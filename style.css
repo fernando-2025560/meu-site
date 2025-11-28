@@ -11,6 +11,21 @@ html, body {
   background-repeat: no-repeat !important;
 }
 
+.video-responsive {
+  position: relative;
+  width: 100%;
+  max-width: 320px; /* opcional, se quiser limitar */
+  aspect-ratio: 16 / 9;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 /* Dimensões fixas */
 :root {
   --video-width: 11.822917vw;
@@ -1958,6 +1973,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

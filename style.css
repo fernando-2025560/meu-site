@@ -691,7 +691,7 @@ body {
 .video-container {
   position: absolute;
   top: 5.433rem;
-  left: 37.79527559055118px;
+  left: 2.362rem;
   width: 16.666667vw;
   height: 9.375000vw;
   border-radius: 0.206417vw;
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

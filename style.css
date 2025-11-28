@@ -830,7 +830,7 @@ canvas {
 #custom-overlay-container {
   position: absolute;
   top: 8.055556vh;
-  left: 453.54330708661416px;
+  left: 28.346rem;
   pointer-events: none;  /* evita interferência na página */
 }
 
@@ -1924,6 +1924,7 @@ main {
   .vid-box iframe { width: 100%; }
   .vid-box p { font-size: 0.8rem; }
 }
+
 
 
 

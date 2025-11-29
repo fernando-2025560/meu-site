@@ -14,7 +14,7 @@ html, body {
 
 /* Dimensões fixas */
 :root {
-  --video-width: 11.822917%;
+  --video-width: 11.822917vw;
   --video-height: 15.833333vh; /* 16:9 proporção exata para 60px largura */
   --video-top: 5.555556vh;
   --video-left: 11.770833vw;
@@ -1657,8 +1657,8 @@ html, body {
   position: absolute;
 
   /* Posição solicitada */
-  top: 15cm;
-  right: 7cm;
+  top: 66.15vh;
+  right: 33.075vh;
 
   /* Dimensões fixas do vídeo */
   width: 20rem;
@@ -1671,7 +1671,7 @@ html, body {
 
   
   /* Mesmo alinhamento horizontal  mesma lateral */
-  right: 5cm;
+  right: 189vh;
 
   /* Fica logo abaixo dovideo */
   top: 27cm;
@@ -1972,6 +1972,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

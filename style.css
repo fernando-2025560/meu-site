@@ -1657,23 +1657,25 @@ html, body {
   position: absolute;
 
   /* Posição solicitada */
-  top: 21cm;
-  right: 4cm;
+  top: 27cm;
+  right: 5cm;
 
   /* Dimensões fixas do vídeo */
-  width: 20rem;
-  height: 11.25rem;
+  width: 320px;
+  height: 180px;
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption7 {
   position: absolute;
 
-  /* 21 cm do topo + altura do vídeo (180px) */
-  top: 21cm;
+  
+  /* Mesmo alinhamento horizontal  mesma lateral */
+  right: 5cm;
 
-  /* Mesmo alinhamento horizontal / mesma lateral */
-  right: 4cm;
+  /* Fica logo abaixo dovideo */
+  top: calc(27cm + 180px + 0.5cm);
+}
 
   text-align: left;
   font-family: Arial, sans-serif;
@@ -1970,6 +1972,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

@@ -14,7 +14,7 @@ html, body {
 
 /* Dimensões fixas */
 :root {
-  --video-width: 11.822917vw;
+  --video-width: 11.822917%;
   --video-height: 15.833333vh; /* 16:9 proporção exata para 60px largura */
   --video-top: 5.555556vh;
   --video-left: 11.770833vw;
@@ -1972,6 +1972,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

@@ -394,7 +394,7 @@ body {
   top: calc(var(--video-top)  + var(--video-height) + 11.811rem);
   left: var(--video-left);
   width: var(--video-width);
-  font-size: 1.203704vh;
+  font-size: 0.813rem;
   color: #000 !important;
   text-decoration: underline;
   cursor: pointer;
@@ -446,7 +446,7 @@ body {
   position: absolute;
   top: calc(4.724rem + 13.75rem + 0.313rem);
   left: 2.362rem;
-  font-size: 1.203704vh;
+  font-size: 0.813rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -512,7 +512,7 @@ body {
   top: calc(var(--video-top)  + var(--video-height) + 11.811rem);
   left: var(--video-left);
   width: var(--video-width);
-  font-size: 1.203704vh;
+  font-size: 0.813rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -574,7 +574,7 @@ body {
   position: absolute;
   top: calc(4.724rem + 19.444444vh + 0.006rem);
   left: 1.979167vw;
-  font-size: 1.203704vh;
+  font-size:0.813rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -666,7 +666,7 @@ body {
   top: calc(var(--video-top)  var(--video-height) + 11.811rem);
   left: var(--video-left);
   width: var(--video-width);
-  font-size: 1.203704vh;
+  font-size: 0.813rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -730,7 +730,7 @@ body {
 .caption-link {
   position: absolute;
   left: 2.362rem;
-  font-size: 1.203704vh;
+  font-size: 0.813rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -785,7 +785,7 @@ svg.chart {
   color: #fff;
   padding: 0.208333vw 0.416667vw;
   border-radius: 0.208333vw;
-  font-size: 1.111111vh;
+  font-size: 0.813rem;
   pointer-events: none;
   display: none;
   white-space: nowrap;
@@ -852,7 +852,7 @@ canvas {
   display: block;
   text-align: absolute;
   z-index: 3;
-  font-size: 0.092596vh;
+  font-size: 0.813rem;
   color: #000;
 }
 
@@ -891,7 +891,7 @@ canvas {
   display: block;
   margin-top: 0.236rem; /* distância de 1mm após o vídeo */
   width: 100%;        /* mesma largura do vídeo */
-  font-size: 1.111111vh;
+  font-size: 0.813rem;
   text-align: absolute;
   text-decoration: underline;
   color: #000;
@@ -1056,7 +1056,7 @@ html, body { margin: 0; padding: 0;}
 margin-top: 37.79527559055118px;
  text-align: absolute;
  font-family: Arial, sans-serif;
- font-size: 13px;
+ font-size: 0.8rem;
  }
 
  .video-miniatura {
@@ -1074,7 +1074,7 @@ margin-top: 37.79527559055118px;
 
 .video-legenda {
   margin-top: 4px;
-  font-size: 13px;
+  font-size: 0.813rem;
   font:  Arial, sans-serif;
 }
 
@@ -1094,7 +1094,7 @@ margin-top: 37.79527559055118px;
 
 .video-caption {
   margin-top: 4px;         /* 1mm abaixo do vídeo */
-  font-size: 13px;
+  font-size: 0.813rem;
   text-align: absolute;
   color: #000;
   font:  Arial, sans-serif;
@@ -1141,7 +1141,7 @@ margin-top: 37.79527559055118px;
 /* Legenda-link exclusiva */
 .custom-video-caption {
   margin-top: 3.78px;
-  font-size: 13px;
+  font-size: 0.813rem;
   width: 20rem;
 }
 
@@ -1345,7 +1345,7 @@ html, body {
 #videoCaption2 {
   margin-top: 37.79527559055118px;
   width: 20rem;
-  font-size: 13px;
+  font-size: 0.813rem;
   color: #000;
 }
 
@@ -1374,7 +1374,7 @@ html, body {
 #videoCaption3 {
   margin-top: 37.79527559055118px;
   width: 20rem;
-  font-size: 13px;
+  font-size: 0.813rem;
   color: #000;
 }
 
@@ -1408,7 +1408,7 @@ html, body {
   margin-top: 10px;
   text-align: absolute;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   color: #000;
 }
 
@@ -1425,7 +1425,7 @@ html, body {
 
 #videoCaption a {
   color: black;
-  font-size: 13px !important;
+  font-size: 0.813rem !important;
   text-decoration: none;
 }
 
@@ -1437,7 +1437,7 @@ html, body {
   top: 755.90px;         /* distância do topo da tela */
   left: 37.8px;         /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo (ajuste se desejar) */
-  height: 197px;     /* altura proporcional (16:9) */
+  height: 11.25rem;     /* altura proporcional (16:9) */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1453,7 +1453,7 @@ html, body {
 /* Legenda abaixo do vídeo */
 #videoCaption5 {
   margin-top: 3.78px;   /* legenda a 1mm abaixo do vídeo */
-  font-size: 13px;
+  font-size: 0.813rem;
   text-align: absolute;
 }
 
@@ -1478,7 +1478,7 @@ html, body {
 /* Estilo do vídeo incorporado */
 .video-container iframe {
   width: 20rem;              /* largura exata */
-  height: 192px;             /* altura exata */
+  height: 11.25rem;             /* altura exata */
   display: block;            /* garante que fique acima da legenda */
   margin: 0 auto;            /* centraliza dentro do container */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
@@ -1488,7 +1488,7 @@ html, body {
 .video-caption {
   display: block;
   margin-top: 3.7795275590551185px;           /* 1 mm abaixo do vídeo */
-  font-size: 13px;
+  font-size: 0.813rem;
   font-family: Arial, sans-serif;
   color: #000;
   text-decoration: underline;
@@ -1521,7 +1521,7 @@ html, body {
   left: 718.1102362204724px;
   width: 20rem;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #ffffff;
   text-decoration: underline;
@@ -1544,7 +1544,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1569,7 +1569,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #ffffff;
   margin: 0;
@@ -1594,7 +1594,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1619,7 +1619,7 @@ html, body {
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family:  Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1693,8 +1693,8 @@ html, body {
   position: absolute;
   top: 8.055556vh;         /* ajuste conforme a posição do seu vídeo */
   left: 19.687500vw;        /* distância da lateral esquerda */
-  width: 16.666667vw;      /* largura padrão do vídeo */
-  height: 16.666667vh;     /* altura padrão do vídeo */
+  width: 20rem;      /* largura padrão do vídeo */
+  height: 11.25rem;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -1705,7 +1705,7 @@ html, body {
   width: 16.666667vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: Arial, sans-serif;
-  font-size: 1.203704vh;
+  font-size: 0.813rem;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1972,6 +1972,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

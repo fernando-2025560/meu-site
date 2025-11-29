@@ -1661,8 +1661,8 @@ html, body {
   right: 7cm;
 
   /* Dimensões fixas do vídeo */
-  width: 320px;
-  height: 180px;
+  width: 20rem;
+  height: 11.25rem;
 }
 
 /* Legenda-link abaixo do vídeo */
@@ -1671,10 +1671,10 @@ html, body {
 
   
   /* Mesmo alinhamento horizontal  mesma lateral */
-  right: 7cm;
+  right: 5cm;
 
   /* Fica logo abaixo dovideo */
-  top: calc(27cm + 180px + 0.5cm);
+  top: 27cm;
 }
 
   text-align: left;
@@ -1972,6 +1972,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 

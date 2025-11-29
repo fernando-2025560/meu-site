@@ -1657,20 +1657,20 @@ html, body {
   position: absolute;
 
   /* Posição solicitada */
-  top: 22cm;
+  top: 21cm;
   right: 4cm;
 
   /* Dimensões fixas do vídeo */
-  width: 320px;
-  height: 180px;
+  width: 20rem;
+  height: 11.25rem;
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption7 {
   position: absolute;
 
-  /* 22 cm do topo + altura do vídeo (180px) */
-  top: calc(22cm + 180px);
+  /* 21 cm do topo + altura do vídeo (180px) */
+  top: 21cm;
 
   /* Mesmo alinhamento horizontal / mesma lateral */
   right: 4cm;
@@ -1970,6 +1970,7 @@ img, video, iframe {
 /* Media queries que NÃO mudam estilo - só ativam o modo responsivo */
 @media (orientation: portrait) { }
 @media (orientation: landscape) { }
+
 
 
 
